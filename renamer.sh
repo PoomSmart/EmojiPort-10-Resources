@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -e
+
 STAGE_PATH=$1
 
 rm -f $STAGE_PATH/CoreEmoji
