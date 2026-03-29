@@ -1,7 +1,7 @@
 Package: com.ps.emojiport10resources
 Name: EmojiPort Resources (iOS 10+)
-Depends: firmware (>= 10.0)
-Version: 1.8.0~b1
+Depends: firmware (>= 10.0), com.ps.emojiport10resources-assets17 | com.ps.emojiport10resources-assets16
+Version: 1.9.0
 Architecture: iphoneos-arm
 Description: Latest emoji localization and metadata for iOS 10+
 Maintainer: PoomSmart
