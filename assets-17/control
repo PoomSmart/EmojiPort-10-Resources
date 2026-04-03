@@ -1,7 +1,6 @@
 Package: com.ps.emojiport10resources-assets17
 Name: EmojiPort Resources — iOS 17+ Assets
 Depends: firmware (>= 17.0)
-Conflicts: com.ps.emojiport10resources-assets16
 Version: 1.9.0
 Architecture: iphoneos-arm
 Description: Marisa LOUDS trie keyword index files for iOS 17+

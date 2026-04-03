@@ -1,6 +1,6 @@
 Package: com.ps.emojiport10resources-assets16
 Name: EmojiPort Resources — iOS 16 Assets
-Conflicts: firmware (>= 17.0), com.ps.emojiport10resources-assets17
+Depends: firmware (<< 17.0)
 Version: 1.9.0
 Architecture: iphoneos-arm
 Description: CFBurstTrie keyword index files for iOS 16 and earlier
