@@ -24,7 +24,7 @@ Requires [Theos](https://theos.dev). Run `build.sh` from the project root to pro
 
 ## Updating assets
 
-Keyword search index files are converted from `CoreEmoji.framework` using the [emoji-meta-reader](../emoji-meta-reader) tool. Its `generator.sh` reads the trie `.dat` files from a CoreEmoji.framework path (e.g. an iOS simulator), converts them to both Marisa (`*2.dat`) and CFBurstTrie (`*_16.dat`) formats, and writes the results directly into the `assets-17/` and `assets-16/` layout trees.
+Keyword search index files are converted from `CoreEmoji.framework` using the [emoji-meta-reader](https://github.com/PoomSmart/emoji-meta-reader) tool. Its `generator.sh` reads the trie `.dat` files from a CoreEmoji.framework path (e.g. an iOS simulator), converts them to both Marisa (`*2.dat`) and CFBurstTrie (`*_16.dat`) formats, and writes the results directly into the `assets-17/` and `assets-16/` layout trees.
 
 ```bash
 ../emoji-meta-reader/generator.sh /path/to/CoreEmoji.framework
